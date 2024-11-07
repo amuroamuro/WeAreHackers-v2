@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="'We Are Hackers' is a prompt-based virtual hacking game for developers. Break through server security, install hacking tools, and get cash!
+
+'by amuroamuro'v2">
+        <title>We Are Hackers!-v2</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--        시스템바-->
+        <div class="systemBar">
+            <button class="helpButton">help</button>
+            <button>store</button>
+            <label class="cash">cash : 0</label>
+        </div>
+        
+<!--        프롬프트 출력-->
+        <div class="output">
+            <label id="output">none</label>
+        </div>
+        
+<!--        프롬프트-->
+        <form name="prompt" class="prompt">
+            <input id="typeCode" type="text">
+            <button id="run" type="button">RUN</button>
+        </form>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
